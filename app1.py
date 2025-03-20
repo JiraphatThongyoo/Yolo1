@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 
-model_path = 'base.pt'            
+model_path = 'best.pt'            
 model = YOLO(model_path)
 
 st.title("ตรวจจับวัตถุ : ภาพนิ่ง")
